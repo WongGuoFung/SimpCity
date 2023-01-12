@@ -10,6 +10,8 @@ This city-building strategy game is played over 16 turns. In each turn, you will
 
 Each building scores in a different way. The objective of the game is to build a city that scores as many points as possible.
 
+simpcity.txt saves the current state of the game, so that after the player quits the game, they can return to the current state by selecting “Load Saved Game” in the main menu. 
+
 ### Scoring Rules
 
 There are 5 types of buildings, with 8 copies of each:
@@ -18,3 +20,4 @@ There are 5 types of buildings, with 8 copies of each:
 - House (HSE): If it is next to a factory (FAC), then it scores 1 point only. Otherwise, it scores 1 point for each adjacent house (HSE) or shop (SHP), and 2 points for each adjacent beach (BCH).
 - Shop (SHP): Scores 1 point per different type of building adjacent to it.
 - Highway (HWY): Scores 1 point per connected highway (HWY) in the same row.
+
