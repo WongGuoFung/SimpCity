@@ -10,7 +10,7 @@ This city-building strategy game is played over 16 turns. In each turn, you will
 
 Each building scores in a different way. The objective of the game is to build a city that scores as many points as possible.
 
-![simpcity.txt] saves the current state of the game, so that after the player quits the game, they can return to the current state by selecting “Load Saved Game” in the main menu. 
+simpcity.txt saves the current state of the game, so that after the player quits the game, they can return to the current state by selecting “Load Saved Game” in the main menu. 
 
 ### Scoring Rules
 
